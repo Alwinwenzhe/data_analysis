@@ -83,3 +83,4 @@ if __name__ == '__main__':
     base_path = os.path.dirname(os.path.abspath(__file__))
     file_path = base_path + '/data/sale_data.csv'
     clean_data(file_path,base_path + '/data/cleaned_sale_data.csv')
+    print('数据处理完成')
